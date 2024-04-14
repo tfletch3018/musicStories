@@ -7,11 +7,15 @@ function Home() {
     return (
 
         <>
+        <div className='hero'>
         <Container>
             <div className=''>
-                Home
+                <h1 className='centered myHeading'>
+                    Welcome to My Music
+                </h1>
             </div>
         </Container>
+        </div>
         </>
     )
 }

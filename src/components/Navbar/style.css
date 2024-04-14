@@ -1,0 +1,23 @@
+.myNav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navLinks {
+    color:#fff2e6;
+    text-shadow: 3px 5px 8px #331a00;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    float: right;
+    padding:22px 29px 8px 1px;
+}
+.navLinks:hover {
+    color:#ff8000;
+    text-decoration: none;
+}
+.navLinks:active,
+:focus {
+    color:#ffb366;
+}
