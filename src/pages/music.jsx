@@ -7,11 +7,16 @@ function Music() {
     return (
 
         <>
+                    <div className='musicHero'>
+
         <Container>
             <div className=''>
+                <h1 className='centered myHeading'>
                 My Music
+                </h1>
             </div>
         </Container>
+        </div>
         </>
     )
 }

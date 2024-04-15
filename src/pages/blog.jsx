@@ -7,7 +7,7 @@ function Blog() {
     return (
 
         <>
-        <div className='hero blogHero'>
+        <div className='blogHero'>
         <Container>
             <div className=''>
             <h1 className='centered myHeading'>
