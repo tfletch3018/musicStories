@@ -7,11 +7,15 @@ function Blog() {
     return (
 
         <>
+        <div className='hero blogHero'>
         <Container>
             <div className=''>
+            <h1 className='centered myHeading'>
                 My Perspective
+                </h1>
             </div>
         </Container>
+        </div>
         </>
     )
 }
