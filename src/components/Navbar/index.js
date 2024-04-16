@@ -6,26 +6,30 @@ function Navbar() {
     return (
 
         <div>
+
             <nav className='myNav'>
+
                 <Link to="/"
-                className='navLinks'>
+                    className='navHeader'>
                     Home
                 </Link> {" "}
-                <Link to="/music"
-                className='navLinks'>
-                    Music
-                    </Link>
-                    <Link to="/blog"
+                <Link to="/contact"
                     className='navLinks'>
-                        Thoughts
-                        </Link>
-                        <Link to="/contact"
-                        className='navLinks'>
-                            Link Up
-                            </Link>
+                    Link Up
+                </Link>
+                <Link to="/blog"
+                    className='navLinks'>
+                    Thoughts
+                </Link>
+                <Link to="/music"
+                    className='navLinks'>
+                    Music
+                </Link>
+
             </nav>
 
             <Outlet />
+            
         </div>
     );
 }
